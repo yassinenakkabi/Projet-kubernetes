@@ -17,8 +17,7 @@ spec:
     spec:
       containers:
       - name: wordpress
-        image: wordpress:4.8-apache
-        imagePullPolicy: Always
+        image: wordpress:6.5.2-apache
         resources:
           limits:
             memory: "512Mi"
