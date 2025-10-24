@@ -40,8 +40,6 @@ spec:
             secretKeyRef:
               name: mysql-secret
               key: password
-        - name: MYSQL_RANDOM_ROOT_PASSWORD
-          value: "yes"
         resources:
           requests:
             cpu: "250m"
